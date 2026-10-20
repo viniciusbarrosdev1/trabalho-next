@@ -1,26 +1,76 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Cores e medidas do app (estilo "framed sheet").
+   Com o @theme, o Tailwind cria classes como bg-ground, text-muted, border-line... */
+@theme {
+  --color-ground: #f1f4f5;   /* moldura: cinza-azulado de gabinete de PC */
+  --color-surface: #ffffff;  /* a "folha" branca onde fica o conteúdo */
+  --color-raised: #f4f6f8;
+  --color-active: #e4e8ea;
+  --color-line: #e8eaec;
+  --color-rule: #eff1f2;
+  --color-control: #cdced1;
+  --color-ink: #131416;
+  --color-muted: #5d5f60;
+  --color-accent: #1b6c80;
+  --color-accent-strong: #145566;
+  --color-bar: #cfd7db;      /* meses anteriores no gráfico */
+  --color-positive: #1e7b4f;
+  --color-negative: #c4242a;
+  --color-warning: #92400e;
+  --color-pos-bg: #dcfae5;
+  --color-pos-ink: #04250e;
+  --color-neg-bg: #ffedea;
+  --color-neg-ink: #831c1e;
+  --color-warn-bg: #fff4dc;
+  --color-warn-ink: #92400e;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-plex), system-ui, sans-serif;
 }
 
+/* Modo escuro: segue a preferência do sistema */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    color-scheme: dark;
+    --color-ground: #0f1214;
+    --color-surface: #171b1e;
+    --color-raised: #1f2427;
+    --color-active: #262c30;
+    --color-line: #2a3034;
+    --color-rule: #222829;
+    --color-control: #3a4146;
+    --color-ink: #eceff0;
+    --color-muted: #9aa3a8;
+    --color-accent: #4fb3c9;
+    --color-accent-strong: #7ccbdc;
+    --color-bar: #3a454b;
+    --color-positive: #4cc38a;
+    --color-negative: #f2777a;
+    --color-warning: #e8a34a;
+    --color-pos-bg: #133524;
+    --color-pos-ink: #9de5bd;
+    --color-neg-bg: #3d1a1b;
+    --color-neg-ink: #ffb4b4;
+    --color-warn-bg: #3a2a12;
+    --color-warn-ink: #f4c27a;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-ground);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 14px;
+}
+
+/* números alinhados (todos os dígitos com a mesma largura) */
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
 }

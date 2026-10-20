@@ -1,0 +1,1414 @@
+{
+ "url": "http://localhost:3000/dashboard",
+ "at": "2026-10-20T00:44:03.396Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.49,
+    0.56
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 1309,
+     "screens": 1.5,
+     "words": 266,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 6,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Outubro na loja",
+     "words": 3,
+     "chars": 15,
+     "lines": 1,
+     "size": 22,
+     "vw": 1.5,
+     "font": "IBM Plex Sans",
+     "weight": 600,
+     "tracking": 0,
+     "leading": 1.25,
+     "top": 73,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Outubro na loja",
+     "words": 3,
+     "lines": 1,
+     "size": 22,
+     "font": "IBM Plex Sans"
+    },
+    "headings": [
+     {
+      "text": "R$ 47.858,40",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "IBM Plex Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 227,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "108",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "IBM Plex Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.23,
+      "top": 227,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "R$ 443,13",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "IBM Plex Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.23,
+      "top": 227,
+      "tag": "span",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 3,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "IBM Plex Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      12,
+      14,
+      22,
+      28
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "IBM Plex Sans",
+      "size": 14,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.4
+     },
+     "measureChars": 91,
+     "max": {
+      "size": 28,
+      "vw": 1.9,
+      "font": "IBM Plex Sans",
+      "text": "R$ 47.858,40"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 19
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f1f4f5",
+     "bodyBgHsl": {
+      "h": 195,
+      "s": 0.17,
+      "l": 0.95
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 48,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5d5f60",
+       "share": 0.61
+      },
+      {
+       "color": "#131416",
+       "share": 0.32
+      },
+      {
+       "color": "#1e7b4f",
+       "share": 0.04
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      },
+      {
+       "color": "#1b6c80",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#e4e8ea",
+      "hsl": {
+       "h": 200,
+       "s": 0.12,
+       "l": 0.91
+      },
+      "fg": "#131416"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 8,
+     "height": 32,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Visão geral",
+      "Ver 2 produtos para repor"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "div.grid.grid-cols-3 1082px",
+      "div.absolute.inset-x-0 1026px rule",
+      "div.absolute.inset-x-0 1026px rule",
+      "div.absolute.inset-x-0 1026px rule",
+      "div.absolute.inset-x-0 1026px rule"
+     ],
+     "outlinedBoxes": 4,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 4,
+     "boxRadius": 8,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 900,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "ibm plex sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 1309,
+    "margins": {
+     "left": 56,
+     "right": 69
+    },
+    "sections": [
+     {
+      "sel": "section.rounded-lg.border",
+      "tag": "section",
+      "top": 173,
+      "height": 654,
+      "words": 73,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "R$ 47.858,40",
+       "size": 28,
+       "tag": "span"
+      },
+      "left": 289,
+      "right": 69,
+      "textLeft": 289,
+      "textRight": 69,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.grid.gap-6",
+      "tag": "div",
+      "top": 850,
+      "height": 426,
+      "words": 148,
+      "media": 0,
+      "middle": 212,
+      "heading": {
+       "text": "Quanto o estoque aguenta",
+       "size": 14,
+       "tag": "h2"
+      },
+      "left": 289,
+      "right": 69,
+      "textLeft": 289,
+      "textRight": 69,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Outubro na loja",
+      "size": 22,
+      "top": 73,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 264,
+      "n": 1
+     },
+     {
+      "x": 289,
+      "n": 1
+     },
+     {
+      "x": 867,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 3,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.12,
+    "voidBox": {
+     "x": 0,
+     "y": 180,
+     "w": 240,
+     "h": 660
+    }
+   },
+   "app": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "dark": false,
+    "ground": "#f1f4f5",
+    "sidebar": {
+     "w": 228,
+     "tag": "aside",
+     "links": 4,
+     "share": 0.16
+    },
+    "topbar": {
+     "h": 48
+    },
+    "canvas": {
+     "left": 36,
+     "right": 69
+    },
+    "hero": {
+     "text": "Outubro na loja",
+     "words": 3,
+     "chars": 15,
+     "lines": 1,
+     "size": 22,
+     "vw": 1.5,
+     "font": "IBM Plex Sans",
+     "weight": 600,
+     "tracking": 0,
+     "leading": 1.25,
+     "top": 73,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 1,
+     "firstScreen": 1,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 4,
+     "radii": [
+      [
+       8,
+       3
+      ],
+      [
+       16,
+       1
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 4,
+     "leftAligned": 0,
+     "figures": 9,
+     "tabularShare": 1,
+     "kpiMax": 28
+    },
+    "rows": {
+     "count": 4,
+     "median": 36
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.48,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      12,
+      14,
+      22,
+      28
+     ]
+    },
+    "title": {
+     "text": "Outubro na loja",
+     "size": 22,
+     "top": 73
+    },
+    "colourShare": 0.007
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.57,
+    0.57
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 1768,
+     "screens": 1.7,
+     "words": 266,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 6,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Outubro na loja",
+     "words": 3,
+     "chars": 15,
+     "lines": 1,
+     "size": 22,
+     "vw": 2.9,
+     "font": "IBM Plex Sans",
+     "weight": 600,
+     "tracking": 0,
+     "leading": 1.25,
+     "top": 73,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Outubro na loja",
+     "words": 3,
+     "lines": 1,
+     "size": 22,
+     "font": "IBM Plex Sans"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "IBM Plex Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      12,
+      14,
+      18,
+      22
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "IBM Plex Sans",
+      "size": 14,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.4
+     },
+     "measureChars": 39,
+     "max": {
+      "size": 22,
+      "vw": 2.9,
+      "font": "IBM Plex Sans",
+      "text": "Outubro na loja"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 13
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f1f4f5",
+     "bodyBgHsl": {
+      "h": 195,
+      "s": 0.17,
+      "l": 0.95
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 48,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5d5f60",
+       "share": 0.6
+      },
+      {
+       "color": "#131416",
+       "share": 0.33
+      },
+      {
+       "color": "#1e7b4f",
+       "share": 0.04
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      },
+      {
+       "color": "#1b6c80",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#e4e8ea",
+      "hsl": {
+       "h": 200,
+       "s": 0.12,
+       "l": 0.91
+      },
+      "fg": "#131416"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 8,
+     "height": 32,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Visão geral",
+      "Ver 2 produtos para repor"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "div.grid.grid-cols-3 432px",
+      "div.absolute.inset-x-0 376px rule",
+      "div.absolute.inset-x-0 376px rule",
+      "div.absolute.inset-x-0 376px rule",
+      "div.absolute.inset-x-0 376px rule"
+     ],
+     "outlinedBoxes": 4,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 4,
+     "boxRadius": 8,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 1024,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "ibm plex sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 1768,
+    "margins": {
+     "left": 56,
+     "right": 58
+    },
+    "sections": [
+     {
+      "sel": "section.rounded-lg.border",
+      "tag": "section",
+      "top": 194,
+      "height": 641,
+      "words": 73,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 278,
+      "right": 58,
+      "textLeft": 278,
+      "textRight": 58,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.grid.gap-6",
+      "tag": "div",
+      "top": 859,
+      "height": 876,
+      "words": 148,
+      "media": 0,
+      "middle": 26,
+      "heading": {
+       "text": "Quanto o estoque aguenta",
+       "size": 14,
+       "tag": "h2"
+      },
+      "left": 278,
+      "right": 58,
+      "textLeft": 278,
+      "textRight": 58,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Outubro na loja",
+      "size": 22,
+      "top": 73,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 278,
+      "n": 2
+     },
+     {
+      "x": 253,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 3,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "dark": false,
+    "ground": "#f1f4f5",
+    "sidebar": {
+     "w": 228,
+     "tag": "aside",
+     "links": 4,
+     "share": 0.3
+    },
+    "topbar": {
+     "h": 48
+    },
+    "canvas": {
+     "left": 25,
+     "right": 58
+    },
+    "hero": {
+     "text": "Outubro na loja",
+     "words": 3,
+     "chars": 15,
+     "lines": 1,
+     "size": 22,
+     "vw": 2.9,
+     "font": "IBM Plex Sans",
+     "weight": 600,
+     "tracking": 0,
+     "leading": 1.25,
+     "top": 73,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 1,
+     "firstScreen": 1,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 4,
+     "radii": [
+      [
+       8,
+       3
+      ],
+      [
+       16,
+       1
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 4,
+     "leftAligned": 0,
+     "figures": 9,
+     "tabularShare": 1,
+     "kpiMax": 18
+    },
+    "rows": {
+     "count": 4,
+     "median": 36
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.47,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      12,
+      14,
+      18,
+      22
+     ]
+    },
+    "title": {
+     "text": "Outubro na loja",
+     "size": 22,
+     "top": 73
+    },
+    "colourShare": 0.012
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.9,
+    0.76,
+    0.78
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 397,
+     "h": 860
+    },
+    "page": {
+     "height": 1762,
+     "screens": 2,
+     "words": 251,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 6,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Outubro na loja",
+     "words": 3,
+     "chars": 15,
+     "lines": 1,
+     "size": 22,
+     "vw": 5.5,
+     "font": "IBM Plex Sans",
+     "weight": 600,
+     "tracking": 0,
+     "leading": 1.25,
+     "top": 72,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Outubro na loja",
+     "words": 3,
+     "lines": 1,
+     "size": 22,
+     "font": "IBM Plex Sans"
+    },
+    "headings": [
+     {
+      "text": "Outubro na loja",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.5,
+      "font": "IBM Plex Sans",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 72,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "IBM Plex Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      12,
+      14,
+      18,
+      22
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "IBM Plex Sans",
+      "size": 14,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.4
+     },
+     "measureChars": 51,
+     "max": {
+      "size": 22,
+      "vw": 5.5,
+      "font": "IBM Plex Sans",
+      "text": "Outubro na loja"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 11
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f1f4f5",
+     "bodyBgHsl": {
+      "h": 195,
+      "s": 0.17,
+      "l": 0.95
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 48,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5d5f60",
+       "share": 0.59
+      },
+      {
+       "color": "#131416",
+       "share": 0.33
+      },
+      {
+       "color": "#1e7b4f",
+       "share": 0.04
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      },
+      {
+       "color": "#1b6c80",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#131416",
+      "hsl": {
+       "h": 220,
+       "s": 0.07,
+       "l": 0.08
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": 6,
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Ver 2 produtos para repor"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "div.grid.grid-cols-3 324px",
+      "div.absolute.inset-x-0 268px rule",
+      "div.absolute.inset-x-0 268px rule",
+      "div.absolute.inset-x-0 268px rule",
+      "div.absolute.inset-x-0 268px rule"
+     ],
+     "outlinedBoxes": 3,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 3,
+     "boxRadius": 8,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 0,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "ibm plex sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 397,
+     "h": 860
+    },
+    "pageH": 1762,
+    "margins": {
+     "left": 16,
+     "right": 40
+    },
+    "sections": [
+     {
+      "sel": "div.flex.flex-col",
+      "tag": "div",
+      "top": 72,
+      "height": 149,
+      "words": 22,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Outubro na loja",
+       "size": 22,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 68,
+      "textLeft": 16,
+      "textRight": 68,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.rounded-lg.border",
+      "tag": "section",
+      "top": 245,
+      "height": 625,
+      "words": 67,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 33,
+      "right": 0,
+      "textLeft": 33,
+      "textRight": 0,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.grid.gap-6",
+      "tag": "div",
+      "top": 894,
+      "height": 844,
+      "words": 148,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Quanto o estoque aguenta",
+       "size": 14,
+       "tag": "h2"
+      },
+      "left": 33,
+      "right": 40,
+      "textLeft": 33,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Outubro na loja",
+      "size": 22,
+      "top": 72,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "47,9 mil",
+      "side": "right",
+      "px": 0
+     }
+    ],
+    "edges": [
+     {
+      "x": 33,
+      "n": 2
+     },
+     {
+      "x": 16,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 3,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 397,
+     "h": 860
+    },
+    "dark": false,
+    "ground": "#f1f4f5",
+    "sidebar": null,
+    "topbar": {
+     "h": 48
+    },
+    "canvas": {
+     "left": 16,
+     "right": 40
+    },
+    "hero": {
+     "text": "Outubro na loja",
+     "words": 3,
+     "chars": 15,
+     "lines": 1,
+     "size": 22,
+     "vw": 5.5,
+     "font": "IBM Plex Sans",
+     "weight": 600,
+     "tracking": 0,
+     "leading": 1.25,
+     "top": 72,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 3,
+     "firstScreen": 1,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 3,
+     "radii": [
+      [
+       8,
+       3
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 4,
+     "leftAligned": 0,
+     "figures": 9,
+     "tabularShare": 1,
+     "kpiMax": 18
+    },
+    "rows": {
+     "count": 4,
+     "median": 36
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.46,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      12,
+      14,
+      18,
+      22
+     ]
+    },
+    "title": {
+     "text": "Outubro na loja",
+     "size": 22,
+     "top": 72
+    },
+    "colourShare": 0.021
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "tiny-text",
+   "width": 1440,
+   "message": "48% of the text is under 13px.",
+   "fix": "Data and labels read at 13–14px; keep 11–12px for sublines and axis ticks.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "edge-text",
+   "width": 390,
+   "message": "1 text block(s) sit within 12px of the screen edge: \"47,9 mil\" (0px from the right)",
+   "fix": "Keep text inside the page margin (16–20px). Only display type deliberately bled past the edge may touch it."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/vinicius/dev/chines/next-trabalho/20261019_192156_dashboardbase/.taste-skill/after-dashboard/desktop-fold.jpg",
+   "pages": [
+    "/home/vinicius/dev/chines/next-trabalho/20261019_192156_dashboardbase/.taste-skill/after-dashboard/desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/vinicius/dev/chines/next-trabalho/20261019_192156_dashboardbase/.taste-skill/after-dashboard/tablet-fold.jpg",
+   "pages": [
+    "/home/vinicius/dev/chines/next-trabalho/20261019_192156_dashboardbase/.taste-skill/after-dashboard/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/vinicius/dev/chines/next-trabalho/20261019_192156_dashboardbase/.taste-skill/after-dashboard/mobile-fold.jpg",
+   "pages": [
+    "/home/vinicius/dev/chines/next-trabalho/20261019_192156_dashboardbase/.taste-skill/after-dashboard/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

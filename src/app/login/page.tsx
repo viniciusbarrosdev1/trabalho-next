@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Marca from "@/src/components/Marca";
 
 export default function Login() {
   const router = useRouter(); // serve para trocar de página pelo código
@@ -16,54 +17,82 @@ export default function Login() {
     if (email === "admin@teste.com" && senha === "123456") {
       router.push("/dashboard");
     } else {
-      setErro("E-mail ou senha incorretos");
+      setErro("E-mail ou senha incorretos. Confira os dados de teste abaixo.");
     }
   }
 
+  const campo =
+    "h-10 w-full rounded-md border border-control bg-surface px-3 text-ink placeholder:text-muted/70 focus:border-accent focus:outline-none";
+
   return (
-    <main className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-600 to-purple-700 p-4">
-      <form
-        onSubmit={entrar}
-        className="w-full max-w-sm bg-white text-gray-800 rounded-2xl shadow-xl p-8 space-y-5"
-      >
-        <div className="text-center">
-          <h1 className="text-2xl font-bold">Bem-vindo 👋</h1>
-          <p className="text-sm text-gray-500">Entre na sua conta</p>
+    <main className="flex min-h-screen flex-col items-center justify-center px-4 py-10">
+      <div className="w-full max-w-[400px]">
+        <div className="mb-6 flex items-center gap-2.5">
+          <Marca tamanho={28} />
+          <span className="text-[17px] font-semibold">PCzão</span>
         </div>
 
-        <div>
-          <label className="block text-sm font-medium mb-1">E-mail</label>
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="admin@teste.com"
-            className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-            required
-          />
-        </div>
+        <form onSubmit={entrar} className="rounded-2xl border border-line bg-surface p-6 sm:p-8" noValidate>
+          <h1 className="text-[22px] font-semibold leading-tight">Entrar no painel da loja</h1>
+          <p className="mt-1.5 text-muted">Vendas, pedidos e estoque em um só lugar.</p>
 
-        <div>
-          <label className="block text-sm font-medium mb-1">Senha</label>
-          <input
-            type="password"
-            value={senha}
-            onChange={(e) => setSenha(e.target.value)}
-            placeholder="123456"
-            className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-            required
-          />
-        </div>
+          <div className="mt-6 flex flex-col gap-4">
+            <div>
+              <label htmlFor="email" className="mb-1.5 block font-medium">
+                E-mail
+              </label>
+              <input
+                id="email"
+                type="email"
+                autoComplete="email"
+                value={email}
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                  setErro("");
+                }}
+                placeholder="voce@pczao.com.br"
+                className={campo}
+                aria-invalid={!!erro}
+              />
+            </div>
 
-        {erro && <p className="text-sm text-red-600">{erro}</p>}
+            <div>
+              <label htmlFor="senha" className="mb-1.5 block font-medium">
+                Senha
+              </label>
+              <input
+                id="senha"
+                type="password"
+                autoComplete="current-password"
+                value={senha}
+                onChange={(e) => {
+                  setSenha(e.target.value);
+                  setErro("");
+                }}
+                className={campo}
+                aria-invalid={!!erro}
+              />
+            </div>
 
-        <button
-          type="submit"
-          className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg py-2 transition"
-        >
-          Entrar
-        </button>
-      </form>
+            {erro && (
+              <p role="alert" className="rounded-md bg-neg-bg px-3 py-2 text-neg-ink">
+                {erro}
+              </p>
+            )}
+
+            <button
+              type="submit"
+              className="mt-2 h-10 w-full rounded-md bg-ink font-medium text-surface transition-opacity hover:opacity-85 active:translate-y-px"
+            >
+              Entrar
+            </button>
+          </div>
+        </form>
+
+        <p className="mt-4 text-center text-muted">
+          Conta de teste: <span className="text-ink">admin@teste.com</span> · senha <span className="text-ink">123456</span>
+        </p>
+      </div>
     </main>
   );
 }

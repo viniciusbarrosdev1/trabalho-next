@@ -1,8 +1,15 @@
-{"timestamp":"00:00:02.046","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:09.670","source":"Server","level":"LOG","message":"○ Compiling / ..."}
-{"timestamp":"00:00:12.466","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:06:33.259","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:06:43.427","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:06:44.380","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:13:20.212","source":"Server","level":"LOG","message":"✓ Compiled in 1142ms"}
-{"timestamp":"00:18:37.367","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:01.924","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:42.968","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:02:30.096","source":"Server","level":"ASSERT","message":"true \"Soma das categorias diferente do total do mês\""}
+{"timestamp":"00:02:30.097","source":"Server","level":"ASSERT","message":"true \"Mais pedidos do que unidades vendidas\""}
+{"timestamp":"00:02:30.201","source":"Browser","level":"ASSERT","message":"true Soma das categorias diferente do total do mês"}
+{"timestamp":"00:02:30.230","source":"Server","level":"ASSERT","message":"[browser] true \"Soma das categorias diferente do total do mês\" \"\\u001b[2m(src/lib/dados.ts:95:9)\\u001b[22m\""}
+{"timestamp":"00:02:30.231","source":"Browser","level":"ASSERT","message":"true Mais pedidos do que unidades vendidas"}
+{"timestamp":"00:02:30.236","source":"Server","level":"ASSERT","message":"[browser] true \"Mais pedidos do que unidades vendidas\" \"\\u001b[2m(src/lib/dados.ts:99:9)\\u001b[22m\""}
+{"timestamp":"00:04:07.683","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:04:19.235","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:04:24.163","source":"Browser","level":"ASSERT","message":"true Soma das categorias diferente do total do mês"}
+{"timestamp":"00:04:24.165","source":"Server","level":"ASSERT","message":"[browser] true \"Soma das categorias diferente do total do mês\" \"\\u001b[2m(src/lib/dados.ts:95:9)\\u001b[22m\""}
+{"timestamp":"00:04:24.166","source":"Browser","level":"ASSERT","message":"true Mais pedidos do que unidades vendidas"}
+{"timestamp":"00:04:24.167","source":"Server","level":"ASSERT","message":"[browser] true \"Mais pedidos do que unidades vendidas\" \"\\u001b[2m(src/lib/dados.ts:99:9)\\u001b[22m\""}
+{"timestamp":"00:04:31.156","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
